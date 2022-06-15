@@ -19,6 +19,13 @@
   position: relative;
   overflow: hidden;
 
+  &.half-card-body {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
   .card-title {
     display: flex;
     justify-content: space-between;
