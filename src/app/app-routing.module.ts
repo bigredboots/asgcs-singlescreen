@@ -181,7 +181,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'demandOverview',
+    redirectTo: 'demand',
     pathMatch: 'full',
   },
 ];
